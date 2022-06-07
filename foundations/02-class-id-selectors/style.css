@@ -1,0 +1,10 @@
+* :nth-child(odd){
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    background-color: pink;
+}
+
+* :nth-child(second){
+    color: blue;
+    font-size: 36px;
+
+}
