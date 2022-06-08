@@ -1,15 +1,21 @@
-* :nth-child(odd){
-    font-family: Verdana, DejaVu Sans, sans-serif;
+.odd{
     background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
-.bluery{
+#bluery{
     color: blue;
-    font-size:  36px;
+    font-size: 36px;
 }
 
 .odd.big{
     font-size: 24px;
+}
+
+#greenery{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
