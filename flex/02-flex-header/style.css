@@ -1,6 +1,8 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -22,4 +24,32 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header .logo{
+  margin: 0.2em auto; /*This should hopefully center the logo */
+}
+
+.header .left-links ul { 
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-left: -3em;
+}
+
+li{
+  /*My thinking is that these items should have some padding between them */
+  padding: 0.5em;
+}
+
+.header .right-links ul { 
+  display: flex;
+  justify-content:space-around;
+  align-self: center;
+}
+
+.header .left-links,
+.header .right-links {
+  display: flex;
+  align-items: center;
 }
