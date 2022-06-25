@@ -2,7 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: flex-start;
+  /* using "justify-content: flex-start" is not required because it's the default setting. */
 }
 
 .logo {
